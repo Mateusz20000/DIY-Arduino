@@ -15,12 +15,12 @@ Electrical scheme:
 <br>
 
 PCB scheme:
-<img width="1494" height="1026" alt="image" src="https://github.com/user-attachments/assets/3f364d73-e878-4ab2-ba13-b193bff136ef" />
+<img width="1226" height="842" alt="image" src="https://github.com/user-attachments/assets/909f6a58-3e75-45e0-93ec-519450d3b913" />
 
 <br>
 
 3D Render:
-<img width="1218" height="787" alt="image" src="https://github.com/user-attachments/assets/dcc1ac2e-9cc4-4f20-9273-a4ac05704f3a" />
+<img width="1615" height="1022" alt="image" src="https://github.com/user-attachments/assets/f1560943-b534-4b6c-88e0-087cc557b252" />
 
 <br>
 
