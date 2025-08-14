@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.7"
     },
-    "CreationDate": "2025-08-15T01:06:22+02:00"
+    "CreationDate": "2025-08-15T01:52:06+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Arduino",
       "GUID": "41726475-696e-46f2-9e6b-696361645f70",
-      "Revision": "rev?"
+      "Revision": "1"
     },
     "Size": {
       "X": 68.05,
