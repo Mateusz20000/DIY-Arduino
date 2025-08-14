@@ -5284,26 +5284,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 44.45) (xy 85.09 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25c8d5d7-7049-489f-a120-003f45ec037b")
-	)
-	(wire
-		(pts
-			(xy 107.95 49.53) (xy 101.6 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2925d892-9c75-4ad9-bbb8-411d0185acab")
-	)
-	(wire
-		(pts
 			(xy 219.71 88.9) (xy 215.9 88.9)
 		)
 		(stroke
@@ -5711,16 +5691,6 @@
 			(type default)
 		)
 		(uuid "9083f05d-224f-40ac-84b0-aa8ad7859f97")
-	)
-	(wire
-		(pts
-			(xy 101.6 49.53) (xy 101.6 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "922ca951-893c-4acf-8ae0-651e9875fcd3")
 	)
 	(wire
 		(pts
@@ -6133,7 +6103,7 @@
 		(uuid "fcb0f9ec-7294-4b07-acc9-523e179d0388")
 	)
 	(label "USB_5V"
-		(at 93.98 44.45 0)
+		(at 85.09 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6142,17 +6112,6 @@
 			(justify left bottom)
 		)
 		(uuid "0357c6d9-986e-45c2-a1c6-fecea626ab1f")
-	)
-	(label "VIN"
-		(at 52.07 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13152432-102e-4ed7-bbef-8224252f9f72")
 	)
 	(label "+5V"
 		(at 52.07 180.34 0)
@@ -6716,6 +6675,73 @@
 			(project ""
 				(path "/5adcfd62-53cf-4dcb-bfbf-d2207db0650f"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 107.95 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "195745a1-3910-40f7-9abb-1c26fcfb13a5")
+		(property "Reference" "#PWR021"
+			(at 111.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 104.14 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 107.95 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3309136a-8421-454b-b840-3b70d99a125d")
+		)
+		(instances
+			(project ""
+				(path "/5adcfd62-53cf-4dcb-bfbf-d2207db0650f"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8051,6 +8077,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 52.07 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71a32bb3-db38-466f-ae4f-9996b0548f29")
+		(property "Reference" "#PWR014"
+			(at 48.26 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 55.88 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 52.07 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61279b38-82bb-4fee-b6c9-93c6d102c884")
+		)
+		(instances
+			(project ""
+				(path "/5adcfd62-53cf-4dcb-bfbf-d2207db0650f"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 219.71 85.09 90)
 		(unit 1)
@@ -8776,7 +8869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47 uF"
+		(property "Value" "100uF/25V"
 			(at 83.82 157.8609 0)
 			(effects
 				(font
@@ -8928,7 +9021,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "0.1uF"
 			(at 69.85 158.7499 0)
 			(effects
 				(font
